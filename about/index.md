@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lat's Test
+title: About Me
 tags: [about, test]
 date: 2018-09-05
 comments: false
