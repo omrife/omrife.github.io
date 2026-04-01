@@ -38,20 +38,41 @@
 @use "font-awesome/solid";
 @use "font-awesome/regular";
 
+/***********************************************************
+ * OMRI'S FINAL STRUCTURAL FIXES
+ ***********************************************************/
 
-   /* Update the existing contact-icons block */
-.contact-icons {
-   font-size: 2.5rem !important; /* Adjust this number (0.8, 1.0, etc.) to your liking */
-   text-align: left !important;      /* Aligns inline icons to the left */
-   display: flex !important;         /* Enables flexbox alignment */
-   justify-content: flex-start !important; /* Forces flex items to the left */
-   flex-wrap: wrap;                  /* Ensures they wrap if you have many */
-   margin-top: 10px;                 /* Optional: adds space above the icons */
+/* 1. Bold the Title (h1) and prevent the FOUT snap */
+.post .post-header .post-title {
+    font-weight: 700 !important;
+    font-size: 3rem !important;
+    display: block !important;
 }
 
-/* This targets the individual icons to ensure they don't have centering margins */
-.contact-icons a {
-   margin-right: 8px !important;
-   margin-left: 0 !important;        /* Removes any left margin */
-   margin-right: 15px !important;    /* Adds space between icons on the right */
+/* 2. Style the Subtitle (the .desc class from your Liquid) */
+.post .post-header .desc {
+    font-weight: 400 !important;
+    color: #000000 !important;
+    margin-top: 0rem !important; /* Forces the gap below subtitle */
+    margin-bottom: 0.75rem !important; /* Forces the gap below subtitle */
+    font-size: 1.1rem !important;
+    display: block !important;
+}
+
+/* 3. Force the underline for links inside the article bio */
+article a {
+    border-bottom: 1px solid #000000 !important;
+    text-decoration: none !important;
+    padding-bottom: 0.1px;
+}
+
+article a:hover {
+    border-bottom: 2px solid #4285f4 !important;
+    color: #4285f4 !important;
+}
+
+/* 4. Paragraph spacing inside the article */
+article .clearfix p {
+    margin-bottom: 1.5rem !important;
+    line-height: 1.6 !important;
 }

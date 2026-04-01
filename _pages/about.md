@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: 
+subtitle: <b>PhD Candidate in CS @ HUJI &ensp; • &ensp; Student Researcher @ Google</b>
 
 profile:
   align: right
@@ -11,7 +11,7 @@ profile:
   more_info: 
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
@@ -24,10 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<b> PhD candidate in Computer Science @ the Hebrew University of Jerusalem</b>
-<br>
-<b> Student Researcher @ Google</b>
+I am a PhD candidate in Computer Science at the Hebrew University of Jerusalem (supervised by [Amir Feder](https://www.amirfeder.com/)) and a Student Researcher at Google. My research focuses on Causal Inference, particularly at its intersection with Mechanistic Interpretability and Large Language Models. I am interested in developing CausalML methods for latent textual treatments and using causality to enhance the interpretability and performance of large language models.
 
-My research focuses on Causal Inference, particularly at its intersection with Mechanistic Interpretability and LLMs.
-
-I have over 10 years of prior industry experience as a Senior Data Scientist in both start-ups and large-scale companies across diverse domains. I combine my current academic focus with a robust practical background in Machine Learning, Deep Learning, and software development (mostly in Python), maintaining a strong connection to practical applications and technologies.
+I hold an M.A. in Economics from the Paris School of Economics and a B.A. in Economics and Political Science from Tel Aviv University. Before starting my PhD, I spent over a decade as a Senior Data Scientist in the tech industry, working across both startups and large-scale enterprises.
